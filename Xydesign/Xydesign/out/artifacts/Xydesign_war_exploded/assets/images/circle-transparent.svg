@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="182px" height="182px" viewBox="0 0 182 182" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>oval 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="-5.78993056%" id="linearGradient-1">
+            <stop stop-color="#3E6BFD" offset="0%"></stop>
+            <stop stop-color="#3ECAFD" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-22.4%" y="-22.4%" width="144.8%" height="144.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.864413496">
+        <g id="Case-Study-uala-Desktop" transform="translate(-231.000000, -4365.000000)" fill="url(#linearGradient-1)">
+            <g id="wireframes-sequence" transform="translate(-1401.000000, 2364.000000)">
+                <g id="floating-elements" transform="translate(515.000000, 0.000000)">
+                    <circle id="oval-3" filter="url(#filter-2)" cx="1208" cy="2092" r="67"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

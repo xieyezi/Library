@@ -1,0 +1,374 @@
+
+/* 1. Small devices (tablets, 768px and Up) */
+@media (min-width: 768px) { 
+
+	.float-left{
+		float: left;
+	}
+
+	.float-right{
+		float: right;
+	}
+
+	.our-story-content-inner{
+		padding-left: 30px;
+		padding-right:30px; 
+	}
+
+	.project-information .table {
+	    margin-top: 100px;
+	}
+
+	.no-touch .main-menu-indicator:hover>span:after {
+	    top: -7px;
+	}
+	.no-touch .main-menu-indicator:hover>span:before {
+	    bottom: -7px;
+	}
+
+	.menu-wrap-2 ul li{
+	    line-height: 100px;
+	}
+
+	.menu-wrap-2 ul li ul.sub-menu{
+	    position: absolute;
+	    left: 0;
+	    width: 210px;
+	    background: rgba(255,255,255,0.95);
+	}
+
+	.menu-wrap-2 li.menu-item-has-children{
+		position: relative;
+		display: inline-block;
+	}
+	.menu-wrap-2 ul li ul li ul.sub-menu{
+	    position: absolute;
+	    left: 210px;
+	    top: 0;
+	    background: rgba(255,255,255,0.95);
+	}
+
+	.menu-wrap-2 ul li ul li.menu-item-has-children:after{
+		position: absolute;
+		right: 10px;
+		top: 8px;
+	    content: "\e684";
+	    font-size: 25px;
+		display: inline-block;
+		font-family: 'Pe-icon-7-stroke';
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+
+
+}
+
+/* 2. Small devices (tablets, 768px and Down) */
+@media (max-width: 768px){
+
+	.menu-wrap-2 {
+		overflow-y: auto;
+	}
+
+	.menu-wrap-2 ul li ul.sub-menu{
+		display: block !important;
+	}
+	.menu-wrap-2 ul li ul li ul.sub-menu{
+	    display: block !important; 
+	}
+
+	.slider-description{
+		top: 25%;
+	}
+	.slider-description-inner h1 span {
+	    padding: 10px;
+	    line-height: 32px;
+	}
+
+
+	.slider-description-inner h1, .cd-headline{
+		font-size: 20px;
+	}
+	.menu-wrap{
+		width: 100%;
+	}
+
+	.menu-wrap-2{
+		padding-top: 100px;
+		position: fixed;
+		background: rgba(251, 251, 251, 0.98);
+		height: 100%;
+		width: 100%;
+		-webkit-transform: translate3d(-105%, 0, 0);
+		transform: translate3d(-105%, 0, 0);
+		transition: -webkit-transform 0.4s;
+		transition: transform 0.4s;
+		transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+	}
+
+
+	.is-open{
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+		transition: -webkit-transform 0.4s;
+	}
+	.menu-wrap-2:after{
+		width: 100%;
+		height: 100%;
+		background: #000;
+		position: fixed;
+	}
+
+	.menu-wrap-2 ul.sub-menu{
+		padding-top: 0;
+		background: transparent;
+	}
+
+	.menu-wrap-2 ul.sub-menu{
+		position: relative;
+	}
+
+
+	.menu-wrap-2 ul li{
+		display: block;
+	}
+
+	.menu-content {  
+    	padding-top: 90px;
+	}
+
+	.newsletter-right, .newsletter-left {
+  		min-height: 160px;
+	}
+	.newsletter-right-inner{
+		padding: 10px;
+		left: 10px;
+		top: 10px;
+		width: calc(100% - 20px);
+		height: calc(100% - 20px);
+		display: table;
+		background-color: rgba(255, 255, 255, 0.9);
+	}
+	.newsletter-right-inner form{
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.blog-front-content{
+		padding: 20px;
+	}
+	.blog-front-content-inner h1 {
+    	font-size: 18px;
+    	letter-spacing: 1px;
+    }
+
+	.newsletter-left-inner h1{
+		font-size: 20px;
+	}
+	.our-story-content{
+		background: rgba(123,238,199,0.8);
+	}
+
+	.header-page .inner-content .header-content h1 {
+    	font-size: 30px;
+	}
+	.header-page{
+		min-height: 250px;
+	}
+	.header-page .inner-content {
+	    height: 210px;
+	}
+
+	.nav{
+		margin-right: 0;
+	}
+
+	.works-filter a {
+	    display: inline-block;
+	    font-size: 13px;
+	    padding-right: 0;
+	    padding-left: 4px;
+	}
+
+	.tabs-wrapper {
+	    padding: 25px 5px 0 5px;
+	}
+
+	.arch-slider-content p {
+	    font-size: 28px;
+	    font-weight: 100;
+	    line-height: 22px;
+	}
+
+	.architecture-content .box-over-image {
+	    min-height: 390px;
+	}
+
+	.our-studio-content{
+		padding:15px; 
+	}
+
+}
+
+/* 2. Small devices (tablets, 767px and Down) */
+@media (max-width: 767px) {
+
+	.footer-inner{
+		text-align: center;
+		height: 200px;
+	}
+
+	.kenburnsy {
+    	height: 300px !important;
+	}
+
+	.margin-top {
+	    margin-top: 50px;
+	}
+
+	.img{
+		max-width: 360px;
+  		margin: auto;
+	}
+	.img .overlay-portfolio{
+		max-width: 360px;
+		right: 0;
+		margin: auto;
+	}
+
+	.slide__text{
+		height: 50%;
+	}
+
+	.slide__text p {
+	    font-size: 14px;
+	    line-height: 24px;
+	}
+
+	ul.client-thumb li{
+		width: 49%;
+	}
+}
+
+/* 2. Medium devices (desktops, 991px and Down) */
+@media (max-width: 991px){
+	.blog-front-image img{
+	    max-width: 100%;
+	}
+	.blog-front-content{
+		position: relative;
+	}
+
+	.blog-post{
+		margin-bottom: 50px;
+	}
+
+	.slide__bg{
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: 0 100px;
+	}
+
+	.slide__text {
+	    left: 0;
+	    bottom: 0;
+	    width: 100%;
+	    height: 20rem;
+	    text-align: center;
+	    -webkit-transform: translateY(50%);
+	    transform: translateY(50%);
+	    transition: -webkit-transform 0.5s 0.5s, opacity 0.5s 0.5s;
+	    transition: transform 0.5s 0.5s, opacity 0.5s 0.5s;
+	    padding: 0 1rem;
+	}
+	.slide__text-heading {
+	    font-size: 18px;
+	}
+	.slide__text-desc {
+	    display: none;
+	}
+	.slide__text-link {
+	    display: none;
+	}
+	.slide__overlay {
+	    display: none;
+	}
+	.slide .slide__text {
+	    background-color: #7beec7;
+	}
+
+}
+/* 2. Medium devices (desktops, 991px and Up) */
+@media (min-width: 991px){
+	.blog-front-content{
+		top: 50px;
+		height: 300px;
+		display: table;
+	}
+	.blog-front-content-inner{
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.blog-thumb .icon-video-blog {
+    	left: 70%;
+	}
+
+	.ef-parallax-bg{
+		background-attachment: fixed;
+	}
+
+	.slider-wrapper{
+		min-height: 610px;
+	}
+
+}
+
+
+@media screen and (max-width: 991px) {
+    .cbp_tmtimeline > li .cbp_tmtime span:last-child {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .cbp_tmtimeline:before {
+        display: none;
+    }
+    .cbp_tmtimeline > li .cbp_tmtime {
+        width: 100%;
+        position: relative;
+        padding: 0 0 20px 0;
+    }
+    .cbp_tmtimeline > li .cbp_tmtime span {
+        text-align: left;
+        padding-left: 75px;
+        line-height: 38px;
+    }
+    .cbp_tmtimeline > li .cbp_tmlabel {
+        margin: 0 0 30px 0;
+        padding: 1em;
+        font-weight: 400;
+        font-size: 95%;
+    }
+    .cbp_tmtimeline > li .cbp_tmlabel:after {
+        right: auto;
+        left: 20px;
+        border-right-color: transparent;
+        border-bottom-color: #E1E2E1;
+        top: -20px;
+    }
+    .cbp_tmtimeline > li .cbp_tmicon {
+        position: relative;
+        float: left;
+        left: auto;
+        margin: -75px 5px 0 0px;
+    }
+}
+
